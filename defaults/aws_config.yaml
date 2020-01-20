@@ -13,7 +13,7 @@ regions_data:
   eu-west-1:
     security_group_ids: 'sg-059a7f66a947d4b5c'
     subnet_id: 'subnet-088fddaf520e4c7a8'
-    ami_id_loader: 'ami-0a9a4dc9eb5fbf9e8' # Loader dedicated AMI
+    ami_id_loader: 'ami-0dbf826cf9cdd36a0' # Loader dedicated AMI
     ami_id_monitor: 'ami-0ff760d16d9497662' # Official CentOS Linux 7 x86_64 HVM EBS ENA 1901_01
   us-west-2:
     security_group_ids: 'sg-81703ae4'
