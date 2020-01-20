@@ -1,0 +1,19 @@
+test_duration: 20 
+stress_cmd: ["cassandra-stress user profile=/tmp/cqlstress-lwt-example.yaml n=10000000 ops'(insert=1)' cl=QUORUM -mode native cql3 -rate threads=500" ]
+
+n_db_nodes: 3
+n_loaders: 1
+n_monitor_nodes: 1
+experimental: true
+
+instance_type_db: 'i3.8xlarge'
+instance_type_loader: 'c5.24xlarge'
+instance_type_monitor: 't3.xlarge'
+cluster_health_check: false
+
+nemesis_class_name: 'NoOpMonkey'
+server_encrypt: false
+client_encrypt: false
+nemesis_during_prepare: false
+
+user_prefix: 'lwt-10gb-20m'
