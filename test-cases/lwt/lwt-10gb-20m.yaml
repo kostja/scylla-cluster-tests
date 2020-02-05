@@ -2,7 +2,7 @@ test_duration: 20
 stress_cmd: ["cassandra-stress user profile=/tmp/cqlstress-lwt-example.yaml n=10000000 ops'(insert=1)' cl=QUORUM -mode native cql3 protocolVersion=3 -rate threads=200" ]
 
 n_db_nodes: 3
-n_loaders: 1
+n_loaders: 3
 n_monitor_nodes: 1
 experimental: true
 
