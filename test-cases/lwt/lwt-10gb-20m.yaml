@@ -3,7 +3,7 @@ stress_cmd: ["cassandra-stress user profile=/tmp/cqlstress-lwt-example.yaml n=10
 
 n_db_nodes: 3
 n_loaders: 1
-n_monitor_nodes: 0
+n_monitor_nodes: 1
 experimental: true
 
 instance_type_db: 'i3.8xlarge'
